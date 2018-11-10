@@ -1,0 +1,39 @@
+.ClientProfile {
+  border: 2px solid #0d0f1c;
+  box-shadow: 0px 0px 4px #000;
+  padding: 15px;
+  background: #ececec;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  & img {
+    width: 250px;
+    height: 250px;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    &Name {
+      font-size: 28px;
+    }
+    &Contacts {
+      padding-left: 20px;
+      & p {
+        font-size: 16px;
+        color: #000;
+        font-style: italic;
+      }
+    }
+    &Job {
+      margin: 25px 0;
+      & strong {
+        font-size: 22px;
+      }
+      & p {
+        font-size: 20px;
+      }
+    }
+
+  }
+
+}
