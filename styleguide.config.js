@@ -3,9 +3,6 @@ module.exports = {
     sections: [{
             name: 'Components',
             components: './src/components/**/*.jsx',
-        }, {
-            name: 'Containers',
-            components: 'src/containers/**/*.jsx',
         }],
 
 }

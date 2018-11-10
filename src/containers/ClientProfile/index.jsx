@@ -19,7 +19,7 @@ const ClientProfile = ({ client }) => (
         <img src={client.general.avatar} alt=""/>
         <div className="ClientProfile-info" >
            <strong className="ClientProfile-infoName">{client.general.firstName} {client.general.lastName}</strong>
-            <div className="ClientProfile-info-contacts">
+            <div className="ClientProfile-infoContacts">
                 <p>{client.contact.email}</p>
                 <p>{client.contact.phone}</p>
             </div>
